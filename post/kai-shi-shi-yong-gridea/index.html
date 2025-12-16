@@ -1,0 +1,293 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>开始使用Gridea | 中年大叔不油腻了吗</title>
+<link rel="shortcut icon" href="https://www.bashubook.com/favicon.ico?v=1765878027302">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://www.bashubook.com/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="开始使用Gridea | 中年大叔不油腻了吗 - Atom Feed" href="https://www.bashubook.com/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+我修改了Gridea站点源文件夹的存储位置，将默认位置改到iCloud 上，让它向obsidian 一样可以在多端进行编辑
+我在思考一个问题；gridea和obsidian这2个软件都是支持md语法的，工作上如何将这两个app结合起来使用..." />
+    <meta name="keywords" content="语法" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://www.bashubook.com">
+  <img class="avatar" src="https://www.bashubook.com/images/avatar.png?v=1765878027302" alt="">
+  </a>
+  <h1 class="site-title">
+    中年大叔不油腻了吗
+  </h1>
+  <p class="site-description">
+    我问青山何时老，青山问我几时闲
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          时间轴
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          话题
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+      
+        <a href="/tag/video" class="menu">
+          视频
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              开始使用Gridea
+            </h2>
+            <div class="post-info">
+              <span>
+                2025-12-09
+              </span>
+              <span>
+                6 min read
+              </span>
+              
+                <a href="https://www.bashubook.com/tag/TI2OwrzWtA/" class="post-tag">
+                  # 语法
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <ol>
+<li>我修改了Gridea站点源文件夹的存储位置，将默认位置改到iCloud 上，让它向obsidian 一样可以在多端进行编辑</li>
+<li>我在思考一个问题；gridea和obsidian这2个软件都是支持md语法的，工作上如何将这两个app结合起来使用，提高工作效率</li>
+</ol>
+<p>核心逻辑：<br>
+Obsidian（生产车间）： 利用其强大的编辑体验、双链、插件、大纲功能来撰写和管理草稿。<br>
+Gridea（发布中心）： 利用其现成的静态站生成能力、主题渲染、以及同步功能来发布内容。<br>
+由于你现在已经把 Gridea 的源文件放在了 iCloud，这就为两者的结合提供了天然的便利。以下是具体如何打通这两个 App 的“任督二脉”：</p>
+<pre><code>方案一：“寄生”模式（最推荐，无缝衔接）
+</code></pre>
+<p>在这个方案中，我们将 Gridea 的源文件夹直接作为一个 Obsidian 的仓库（Vault），或者作为你现有 Obsidian 仓库的一个子文件夹。</p>
+<ol>
+<li>
+<p>设置连接<br>
+不要把 Gridea 和 Obsidian 当作两个无关的软件。<br>
+打开 Obsidian。<br>
+点击“打开仓库文件夹” (Open folder as vault)。<br>
+直接选择你 iCloud 里的 Gridea-Blog 文件夹。</p>
+</li>
+<li>
+<p>理解目录结构<br>
+在 Obsidian 里打开后，你会看到几个文件夹，最核心的是这两个：<br>
+<strong>posts：这里存放所有的文章 .md 源文件。</strong><br>
+<strong>post-images（或 images）：存放文章图片。</strong></p>
+<p>方案二：双库模式（最推荐，安全且高效）<br>
+Obsidian 支持同时打开多个仓库（Vault）。你可以把 Gridea 的文件夹作为一个独立的仓库打开。<br>
+操作方法：<br>
+打开 Obsidian，点击左下角的仓库图标。<br>
+点击“打开文件夹作为仓库”，选择你的 Gridea-Blog 文件夹。<br>
+此时，你的 Obsidian 会有两个独立的窗口：<br>
+窗口 1： 你的私密/财务笔记库。<br>
+窗口 2： Gridea 博客库。</p>
+</li>
+</ol>
+<p>优点：<br>
+绝对物理隔离： 两个库互不相通，你的财务数据绝对不会误触跑到博客里。<br>
+配置独立： 你可以在博客库里安装专门写文章用的插件（如文章排版），而不影响主库。<br>
+图片自动管理： 在窗口 2 里拖入图片，图片会自动存入 Gridea 的文件夹，不需要手动搬运。<br>
+工作流： 想写博客时，切换到窗口 2 写 -&gt; 写完保存 -&gt; 打开 Gridea 点击同步。</p>
+<ol start="3">
+<li>核心工作流<br>
+以后写文章，你不再需要打开 Gridea 的编辑器，而是：<br>
+在 Obsidian 里新建笔记： 确保文件保存在 posts 目录下。<br>
+必须添加 Front Matter (YAML 头)： Gridea 识别文章元数据（标题、时间、标签、URL）是靠文件最顶部的 YAML 区域。你需要在 Obsidian 笔记的最开头手动（或用模板）加入这段内容：</li>
+</ol>
+<p>YAML</p>
+<hr>
+<h2 id="title-这里写文章标题date-2025-12-09-160000tags-标签1-标签2published-truehideinlist-falsefeatureistop-false">title: '这里写文章标题'<br>
+date: 2025-12-09 16:00:00<br>
+tags: [标签1, 标签2]<br>
+published: true<br>
+hideInList: false<br>
+feature:<br>
+isTop: false</h2>
+<p>(注：如果不加这个头，Gridea 打开时可能只显示文件名，需要你手动在 Gridea 里再配置一遍信息)</p>
+<p>撰写正文： 尽情使用 Obsidian 的功能写作。</p>
+<p>发布：</p>
+<p>写完后，保存（Obsidian 是自动保存）。</p>
+<p>打开 Gridea 客户端。</p>
+<p>Gridea 会自动检测到文件变动。</p>
+<p>点击 Gridea 左侧的文章列表，检查一下标题和摘要是否正常。</p>
+<p>点击 “同步” 按钮。</p>
+<p>方案二：进阶技巧（利用 Obsidian 插件提效）<br>
+为了让上面那个流程更顺滑，强烈建议在 Obsidian 里做两个优化：</p>
+<ol>
+<li>配置“图片附件”路径<br>
+Gridea 默认把图片存在 post-images 文件夹，且引用格式通常是相对路径或绝对路径。</li>
+</ol>
+<p>在 Obsidian 设置 -&gt; 文件与链接 (Files &amp; Links)。</p>
+<p>附件文件夹路径 (Default location for new attachments)：改为 指定文件夹 -&gt; 选择 post-images。</p>
+<p>这样你在 Obsidian 里直接粘贴截图，图片会自动存到 Gridea 能识别的地方。</p>
+<ol start="2">
+<li>使用 Templater 插件自动生成 YAML 头<br>
+每次手动复制粘贴上面的 YAML 头很麻烦。</li>
+</ol>
+<p>在 Obsidian 安装 Templater 插件。</p>
+<p>新建一个模板文件 Gridea_Post.md，内容如下：</p>
+<p>Markdown</p>
+<hr>
+<h2 id="title-tpfiletitle-date-tpdatenowyyyy-mm-dd-hhmmss-tags-published-truehideinlist-falsefeatureistop-false">title: '&lt;% tp.file.title %&gt;'<br>
+date: &lt;% tp.date.now(&quot;YYYY-MM-DD HH:mm:ss&quot;) %&gt;<br>
+tags: []<br>
+published: true<br>
+hideInList: false<br>
+feature:<br>
+isTop: false</h2>
+<p>以后新建文章时，按一下快捷键调用这个模板，它会自动填好当前的标题和时间，你只需要填标签即可。</p>
+<p>⚠️ 潜在的“坑”与规避<br>
+尽管两者都用 MD，但它们的逻辑有细微差别，请注意以下两点：</p>
+<p>Gridea 的 db.json 是核心： Gridea 不仅仅读取 .md 文件，它还维护一个 db.json 数据库。</p>
+<p>如果你在 Obsidian 里删除了一篇文章，Gridea 打开时可能还会显示那篇文章（但会报错找不到文件）。</p>
+<p>正确做法： 只是修改内容和新建文章时，用 Obsidian 很爽。但如果要删除文章或修改文章的文件名（URL Slug），建议直接在 Gridea 客户端里操作，这样数据库同步最稳。</p>
+<p>图片引用格式： Obsidian 默认喜欢用 ![[图片.png]] 这种双链格式。 Gridea（以及大多数网页）只支持标准的 Markdown 格式 <img src="https://www.bashubook.com/post-images/%E5%9B%BE%E7%89%87.png" alt="" loading="lazy">。</p>
+<p>解决： 在 Obsidian 设置 -&gt; 文件与链接 -&gt; 把 “使用 Wiki 链接 (Use Wiki links)” 关掉。这样 Obsidian 就会自动生成标准 Markdown 链接，Gridea 就能完美识别了。</p>
+<p>总结<br>
+Obsidian 负责“生”（内容创作），Gridea 负责“养”（管理配置）和“嫁”（发布上线）。</p>
+<p>通过 iCloud 文件夹把它们“物理连接”在一起，配合 Obsidian 的模板插件，你会发现写博客的效率会从“繁琐的操作”变成“享受写作流”。</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#title-%E8%BF%99%E9%87%8C%E5%86%99%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98date-2025-12-09-160000tags-%E6%A0%87%E7%AD%BE1-%E6%A0%87%E7%AD%BE2published-truehideinlist-falsefeatureistop-false">title: '这里写文章标题'<br>
+date: 2025-12-09 16:00:00<br>
+tags: [标签1, 标签2]<br>
+published: true<br>
+hideInList: false<br>
+feature:<br>
+isTop: false</a></li>
+<li><a href="#title-tpfiletitle-date-tpdatenowyyyy-mm-dd-hhmmss-tags-published-truehideinlist-falsefeatureistop-false">title: '&lt;% tp.file.title %&gt;'<br>
+date: &lt;% tp.date.now(&quot;YYYY-MM-DD HH:mm:ss&quot;) %&gt;<br>
+tags: []<br>
+published: true<br>
+hideInList: false<br>
+feature:<br>
+isTop: false</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://www.bashubook.com/post/hello-gridea/">
+              <h3 class="post-title">
+                Hello Gridea
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://www.bashubook.com/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

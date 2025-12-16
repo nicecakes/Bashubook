@@ -1,0 +1,215 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gridea系统自带页面 | 中年大叔不油腻了吗</title>
+<link rel="shortcut icon" href="https://www.bashubook.com/favicon.ico?v=1765878027302">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://www.bashubook.com/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Gridea系统自带页面 | 中年大叔不油腻了吗 - Atom Feed" href="https://www.bashubook.com/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+
+首页 (Homepage)
+这是最重要、最基础的系统页面。
+路径： /
+功能： 这是你博客的门面。
+逻辑： 系统会自动把你最新发布的文章放在最上面，通常每页显示 10 篇（可以在设置里改），旧的文章会被挤到“下一页”。
+自定义： 虽然内..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://www.bashubook.com">
+  <img class="avatar" src="https://www.bashubook.com/images/avatar.png?v=1765878027302" alt="">
+  </a>
+  <h1 class="site-title">
+    中年大叔不油腻了吗
+  </h1>
+  <p class="site-description">
+    我问青山何时老，青山问我几时闲
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          时间轴
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          话题
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+      
+        <a href="/tag/video" class="menu">
+          视频
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Gridea系统自带页面
+            </h2>
+            <div class="post-info">
+              <span>
+                2025-12-11
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <ol>
+<li>
+<p>首页 (Homepage)<br>
+这是最重要、最基础的系统页面。<br>
+路径： /<br>
+功能： 这是你博客的门面。<br>
+逻辑： 系统会自动把你最新发布的文章放在最上面，通常每页显示 10 篇（可以在设置里改），旧的文章会被挤到“下一页”。<br>
+自定义： 虽然内容是自动抓取的，但它的排版（是纯列表、还是卡片图文、还是瀑布流）完全由你选择的主题决定。</p>
+</li>
+<li>
+<p>半自动的：关于 (About)<br>
+路径： /post/about<br>
+特殊身份： 它其实是一篇**“伪装成页面的文章”**。<br>
+为什么特殊： 当你第一次安装 Gridea 时，系统就自动为你写好了这篇名叫 about 的文章。<br>
+区别： 不同于 /archives 这种你改不了的页面，/post/about 是完全可以编辑的。你可以在文章列表里找到它，把里面的内容改成你的自我介绍、联系方式等。它只是因为 URL 固定叫 about，所以常被用来做“关于我”的页面。</p>
+</li>
+<li>
+<p>幕后的：RSS 订阅源 (Feed)<br>
+路径： /atom.xml<br>
+功能： 这是一个给机器看的页面，而不是给人看的。<br>
+作用： 如果你的读者使用 Feedly、Reeder 等 RSS 阅读器软件，他们只需要填入这个地址，就能在你更新文章时第一时间收到通知，而不需要每天打开你的网站刷。<br>
+存在形式： 你在网页上通常看不到它，但几乎所有的静态博客都会自动生成这个文件。</p>
+</li>
+<li>
+<p>隐形的：分页 (Pagination)<br>
+路径： /page/2、/page/3 ...<br>
+功能： 当你的文章写多了（比如超过 10 篇），首页放不下了，系统就会自动生成“第 2 页”、“第 3 页”。<br>
+逻辑： 这也是全自动生成的，你不需要手动去把文章搬到第二页，系统会自动“切片”。</p>
+</li>
+<li>
+<p>Archives (归档)： 全自动。只要你发文章，它就自动记录日期，你几乎不需要干预（除非你改文章日期）。</p>
+</li>
+<li>
+<p>Tags (标签)： 半自动。这个页面里有什么内容，完全取决于你在写文章时打了什么标签。<br>
+如果你从不给文章打标签，/tags 页面就是空的。<br>
+如果你给一篇文章打了 Gridea 的标签，/tags 页面里就会自动出现“Gridea”这个选项。</p>
+</li>
+</ol>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://www.bashubook.com/post/zai-gridea-zhong-ru-he-shi-xian-nei-lian/">
+              <h3 class="post-title">
+                在 Gridea 中如何实现“内链”？
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://www.bashubook.com/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

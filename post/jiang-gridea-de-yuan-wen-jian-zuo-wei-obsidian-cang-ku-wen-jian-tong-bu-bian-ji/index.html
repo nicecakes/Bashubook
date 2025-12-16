@@ -1,0 +1,230 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>将gridea的源文件作为obsidian仓库文件同步编辑 | 中年大叔不油腻了吗</title>
+<link rel="shortcut icon" href="https://www.bashubook.com/favicon.ico?v=1765878027302">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://www.bashubook.com/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="将gridea的源文件作为obsidian仓库文件同步编辑 | 中年大叔不油腻了吗 - Atom Feed" href="https://www.bashubook.com/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="把 Gridea 当作你的**“主编辑器”，把 Obsidian 当作一个“实时备份查看器”**。这样既避开了你讨厌的代码格式，又保留了数据在 Obsidian 里的可访问性
+
+第一步：设置图片“自动归位” （关键！）
+Gridea 默认读..." />
+    <meta name="keywords" content="语法" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://www.bashubook.com">
+  <img class="avatar" src="https://www.bashubook.com/images/avatar.png?v=1765878027302" alt="">
+  </a>
+  <h1 class="site-title">
+    中年大叔不油腻了吗
+  </h1>
+  <p class="site-description">
+    我问青山何时老，青山问我几时闲
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          时间轴
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          话题
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+      
+        <a href="/tag/video" class="menu">
+          视频
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              将gridea的源文件作为obsidian仓库文件同步编辑
+            </h2>
+            <div class="post-info">
+              <span>
+                2025-12-09
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+                <a href="https://www.bashubook.com/tag/TI2OwrzWtA/" class="post-tag">
+                  # 语法
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <pre><code>把 Gridea 当作你的**“主编辑器”，把 Obsidian 当作一个“实时备份查看器”**。这样既避开了你讨厌的代码格式，又保留了数据在 Obsidian 里的可访问性
+</code></pre>
+<p>第一步：设置图片“自动归位” （关键！）<br>
+Gridea 默认读取 post-images 文件夹里的图片，但 Obsidian 默认会把拖进去的图片丢在根目录。我们需要改一下规则：<br>
+在当前这个 Obsidian 窗口，按 Cmd + , 打开设置。<br>
+点击左侧的 文件与链接 (Files &amp; Links)。<br>
+找到 附件默认存放路径 (Default location for new attachments)。<br>
+修改为：指定文件夹 (In the folder specified below)。<br>
+在下面的路径栏里，选择或输入：post-images。<br>
+(可选但推荐) 关掉 使用 Wiki 链接 (Use Wiki links)。<br>
+为什么？ 关掉后，Obsidian 会生成标准的 Markdown 图片链接 <img src="..." alt="" loading="lazy">，Gridea 对这种格式的兼容性最好。<br>
+<strong>效果： 以后你写文章时，直接截图粘贴或拖入图片，图片文件会自动存入左侧的 post-images 文件夹，Gridea 能直接识别。</strong></p>
+<p><s>第二步：掌握“写作姿势”<br>
+在这个窗口写文章，和在你原本的 Obsidian 里有一点点不同，请严格遵守以下 3 点：<br>
+文章必须建在 posts 文件夹里<br>
+看左侧文件列表，鼠标右键点击 posts 文件夹 -&gt; 新建笔记。<br>
+注意： 如果你建在根目录或其他地方，Gridea 是扫描不到的。<br>
+文章头部必须加“身份证” (YAML Header)<br>
+Gridea 识别文章标题、时间、标签，全靠文章最顶部的一段代码。<br>
+每次新建文章，第一件事就是把下面这段代码粘贴到最顶端：</s></p>
+<p>YAML</p>
+<hr>
+<h2 id="title-我的新文章标题date-2025-12-09-173000tags-生活-随笔published-truehideinlist-falsefeatureistop-false">title: '我的新文章标题'<br>
+date: 2025-12-09 17:30:00<br>
+tags: [生活, 随笔]<br>
+published: true<br>
+hideInList: false<br>
+feature:<br>
+isTop: false</h2>
+<p><s>如果不加这一段，Gridea 可能会把文件名当标题，且日期会乱。<br>
+开始写作<br>
+在 --- 下面开始写你的正文。<br>
+随意粘贴图片</s></p>
+<p>第三步：发布流程<br>
+写完文章后，你的操作流应该是这样的：<br>
+在 Obsidian 里： 写完，按下 Cmd + S（或者等它自动保存）。<br>
+切换到 Gridea 客户端：<br>
+你会发现刚才写的文章已经出现在列表中了。<br>
+检查一下标题和图片预览是否正常。<br>
+点击 Gridea 的“同步”按钮： 搞定！</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#title-%E6%88%91%E7%9A%84%E6%96%B0%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98date-2025-12-09-173000tags-%E7%94%9F%E6%B4%BB-%E9%9A%8F%E7%AC%94published-truehideinlist-falsefeatureistop-false">title: '我的新文章标题'<br>
+date: 2025-12-09 17:30:00<br>
+tags: [生活, 随笔]<br>
+published: true<br>
+hideInList: false<br>
+feature:<br>
+isTop: false</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://www.bashubook.com/post/kai-shi-shi-yong-gridea/">
+              <h3 class="post-title">
+                开始使用Gridea
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://www.bashubook.com/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

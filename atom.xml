@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.bashubook.com</id>
+    <title>中年大叔不油腻了吗</title>
+    <updated>2025-12-16T09:40:32.580Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.bashubook.com"/>
+    <link rel="self" href="https://www.bashubook.com/atom.xml"/>
+    <subtitle>我问青山何时老，青山问我几时闲</subtitle>
+    <logo>https://www.bashubook.com/images/avatar.png</logo>
+    <icon>https://www.bashubook.com/favicon.ico</icon>
+    <rights>All rights reserved 2025, 中年大叔不油腻了吗</rights>
+    <entry>
+        <title type="html"><![CDATA[网站即将上线]]></title>
+        <id>https://www.bashubook.com/post/wang-zhan-ji-jiang-shang-xian/</id>
+        <link href="https://www.bashubook.com/post/wang-zhan-ji-jiang-shang-xian/">
+        </link>
+        <updated>2025-12-16T09:19:32.000Z</updated>
+        <content type="html"><![CDATA[<p>期待了很久的网站，快要上线了，激动呀</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[哈哈，新的头像来了]]></title>
+        <id>https://www.bashubook.com/post/ha-ha-xin-de-tou-xiang-lai-liao/</id>
+        <link href="https://www.bashubook.com/post/ha-ha-xin-de-tou-xiang-lai-liao/">
+        </link>
+        <updated>2025-12-12T07:31:46.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://www.bashubook.com/post-images/1765524761207.png" alt="" loading="lazy"><br>
+<img src="https://www.bashubook.com/post-images/1765524776169.png" alt="" loading="lazy"><br>
+<img src="https://www.bashubook.com/post-images/1765524783186.png" alt="" loading="lazy"><br>
+<img src="https://www.bashubook.com/post-images/1765525177570.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gridea使用过程中问题记录]]></title>
+        <id>https://www.bashubook.com/post/gridea-shi-yong-guo-cheng-zhong-wen-ti-ji-lu/</id>
+        <link href="https://www.bashubook.com/post/gridea-shi-yong-guo-cheng-zhong-wen-ti-ji-lu/">
+        </link>
+        <updated>2025-12-11T13:36:40.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>记得之前你的 /tag/vlog 死活打不开吗？看看你的 基础配置图。</li>
+</ol>
+<p><strong>标签 URL 默认格式： 你选的是 Short ID (短链接)。</strong><br>
+这意味着： 系统生成的地址根本不是 /tag/vlog，而是一串像乱码一样的 /tag/Xy7zAg。<br>
+破案了！ 之前并不是主题不支持，而是你设置了“短 ID”模式，但手动输入的链接却是“单词模式”，所以匹配不上。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[草稿1]]></title>
+        <id>https://www.bashubook.com/post/cao-gao-1/</id>
+        <link href="https://www.bashubook.com/post/cao-gao-1/">
+        </link>
+        <updated>2025-12-11T08:46:37.000Z</updated>
+        <content type="html"><![CDATA[<p>.post-feature-image {<br>
+/* 1. 基础显示设置 <em>/<br>
+width: 100% !important;<br>
+aspect-ratio: 100 / 68;  /</em> 等同于之前的 30%，即 宽度100:高度30 */</p>
+<p>/* 2. 图片对齐与填充 <em>/<br>
+background-size: cover !important;<br>
+background-position: top center !important; /</em> 防止切头 */</p>
+<p>/* 3. (可选) 圆角，不需要可删除 */<br>
+border-radius: 8px;<br>
+}</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[视频频道]]></title>
+        <id>https://www.bashubook.com/post/list/</id>
+        <link href="https://www.bashubook.com/post/list/">
+        </link>
+        <updated>2025-12-11T08:22:41.000Z</updated>
+        <content type="html"><![CDATA[<p>欢迎来到我的视频频道，这里收录了我所有的 Vlog 作品。</p>
+<hr>
+<h3 id="2025年作品">📂 2025年作品</h3>
+<ul>
+<li><strong><a href="/post/tokyo-disney"><img src="https://www.bashubook.com/post-images/1765443321056.jpg" alt="🎢 东京迪斯尼乐园 Vlog" loading="lazy"></a></strong>
+<blockquote>
+<p>2025-12-11 | 第一次去东京迪斯尼，烟花太美了！</p>
+</blockquote>
+</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[司波图的黑苹果自动安装教程]]></title>
+        <id>https://www.bashubook.com/post/sibotu-hackintosh/</id>
+        <link href="https://www.bashubook.com/post/sibotu-hackintosh/">
+        </link>
+        <updated>2025-12-11T08:12:32.000Z</updated>
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115632045562422&bvid=BV1WYUZBdESe&cid=34358692292&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"></iframe>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Video Disneyland in Tokyo]]></title>
+        <id>https://www.bashubook.com/post/Tokyo Disneyland/</id>
+        <link href="https://www.bashubook.com/post/Tokyo Disneyland/">
+        </link>
+        <updated>2025-12-11T07:11:00.000Z</updated>
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?bvid=BV1jV411Z7r1&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"> </iframe>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[东京迪斯尼Vlog]]></title>
+        <id>https://www.bashubook.com/post/tokyo-disney/</id>
+        <link href="https://www.bashubook.com/post/tokyo-disney/">
+        </link>
+        <updated>2025-12-11T02:32:33.000Z</updated>
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?bvid=BV1jV411Z7r1&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"> </iframe>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gridea系统自带页面]]></title>
+        <id>https://www.bashubook.com/post/gridea-xi-tong-zi-dai-ye-mian/</id>
+        <link href="https://www.bashubook.com/post/gridea-xi-tong-zi-dai-ye-mian/">
+        </link>
+        <updated>2025-12-11T02:25:33.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>
+<p>首页 (Homepage)<br>
+这是最重要、最基础的系统页面。<br>
+路径： /<br>
+功能： 这是你博客的门面。<br>
+逻辑： 系统会自动把你最新发布的文章放在最上面，通常每页显示 10 篇（可以在设置里改），旧的文章会被挤到“下一页”。<br>
+自定义： 虽然内容是自动抓取的，但它的排版（是纯列表、还是卡片图文、还是瀑布流）完全由你选择的主题决定。</p>
+</li>
+<li>
+<p>半自动的：关于 (About)<br>
+路径： /post/about<br>
+特殊身份： 它其实是一篇**“伪装成页面的文章”**。<br>
+为什么特殊： 当你第一次安装 Gridea 时，系统就自动为你写好了这篇名叫 about 的文章。<br>
+区别： 不同于 /archives 这种你改不了的页面，/post/about 是完全可以编辑的。你可以在文章列表里找到它，把里面的内容改成你的自我介绍、联系方式等。它只是因为 URL 固定叫 about，所以常被用来做“关于我”的页面。</p>
+</li>
+<li>
+<p>幕后的：RSS 订阅源 (Feed)<br>
+路径： /atom.xml<br>
+功能： 这是一个给机器看的页面，而不是给人看的。<br>
+作用： 如果你的读者使用 Feedly、Reeder 等 RSS 阅读器软件，他们只需要填入这个地址，就能在你更新文章时第一时间收到通知，而不需要每天打开你的网站刷。<br>
+存在形式： 你在网页上通常看不到它，但几乎所有的静态博客都会自动生成这个文件。</p>
+</li>
+<li>
+<p>隐形的：分页 (Pagination)<br>
+路径： /page/2、/page/3 ...<br>
+功能： 当你的文章写多了（比如超过 10 篇），首页放不下了，系统就会自动生成“第 2 页”、“第 3 页”。<br>
+逻辑： 这也是全自动生成的，你不需要手动去把文章搬到第二页，系统会自动“切片”。</p>
+</li>
+<li>
+<p>Archives (归档)： 全自动。只要你发文章，它就自动记录日期，你几乎不需要干预（除非你改文章日期）。</p>
+</li>
+<li>
+<p>Tags (标签)： 半自动。这个页面里有什么内容，完全取决于你在写文章时打了什么标签。<br>
+如果你从不给文章打标签，/tags 页面就是空的。<br>
+如果你给一篇文章打了 Gridea 的标签，/tags 页面里就会自动出现“Gridea”这个选项。</p>
+</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在 Gridea 中如何实现“内链”？]]></title>
+        <id>https://www.bashubook.com/post/zai-gridea-zhong-ru-he-shi-xian-nei-lian/</id>
+        <link href="https://www.bashubook.com/post/zai-gridea-zhong-ru-he-shi-xian-nei-lian/">
+        </link>
+        <updated>2025-12-10T03:38:46.000Z</updated>
+        <content type="html"><![CDATA[<p>虽然没有 [[ ]] 快捷语法，但你依然可以在 Gridea 中手动创建文章间的链接，使用的是标准 Markdown 链接语法：<br>
+<a href="/post/kai-shi-shi-yong-gridea">开始使用Gridea</a><br>
+操作步骤：</p>
+<p>获取链接： 在 Gridea 中写好目标文章（例如“文章A”），在右侧设置中找到它的 URL (Slug)，比如 my-first-post。</p>
+<p>手动引用： 在当前文章中，使用 <a href="/post/my-first-post">显示文本</a> 的格式来引用它。</p>
+]]></content>
+    </entry>
+</feed>

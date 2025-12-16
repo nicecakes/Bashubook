@@ -1,0 +1,182 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gridea使用过程中问题记录 | 中年大叔不油腻了吗</title>
+<link rel="shortcut icon" href="https://www.bashubook.com/favicon.ico?v=1765878027302">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://www.bashubook.com/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Gridea使用过程中问题记录 | 中年大叔不油腻了吗 - Atom Feed" href="https://www.bashubook.com/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+记得之前你的 /tag/vlog 死活打不开吗？看看你的 基础配置图。
+
+标签 URL 默认格式： 你选的是 Short ID (短链接)。
+这意味着： 系统生成的地址根本不是 /tag/vlog，而是一串像乱码一样的 /tag/Xy7z..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://www.bashubook.com">
+  <img class="avatar" src="https://www.bashubook.com/images/avatar.png?v=1765878027302" alt="">
+  </a>
+  <h1 class="site-title">
+    中年大叔不油腻了吗
+  </h1>
+  <p class="site-description">
+    我问青山何时老，青山问我几时闲
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          时间轴
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          话题
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+      
+        <a href="/tag/video" class="menu">
+          视频
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Gridea使用过程中问题记录
+            </h2>
+            <div class="post-info">
+              <span>
+                2025-12-11
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://www.bashubook.com/post-images/gridea-shi-yong-guo-cheng-zhong-wen-ti-ji-lu.jpeg" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <ol>
+<li>记得之前你的 /tag/vlog 死活打不开吗？看看你的 基础配置图。</li>
+</ol>
+<p><strong>标签 URL 默认格式： 你选的是 Short ID (短链接)。</strong><br>
+这意味着： 系统生成的地址根本不是 /tag/vlog，而是一串像乱码一样的 /tag/Xy7zAg。<br>
+破案了！ 之前并不是主题不支持，而是你设置了“短 ID”模式，但手动输入的链接却是“单词模式”，所以匹配不上。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://www.bashubook.com/post/cao-gao-1/">
+              <h3 class="post-title">
+                草稿1
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://www.bashubook.com/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
